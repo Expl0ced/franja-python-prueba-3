@@ -27,8 +27,9 @@ def impares():
                 impar=int(impar)
                 if impar % 2 != 0:
                     impares.append(impar)
-    print(impares)
+                    
     impares=np.array(impares)
+    print(impares)
     print('la dimension de la lista es: '+ str(impares.ndim))
 
 
